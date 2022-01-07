@@ -9,11 +9,23 @@ h1{
 span{
     color: orange;
 }
-section{
+.flex-conatainer{
     display: flex;
 }
 .half-width{
-    width: 100%;
+    width: 60%;
+    
+}
+.ex-dev{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    width: 40%;
+    box-shadow: 10px 10px 10px 10px grey;
+}
+#web-dev{
+    border-left: 10px solid;
+    border-color: blue;
 }
 text{
     text-align: right justify;
@@ -37,4 +49,15 @@ text{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.text-ok{
+    text-combine-upright: 10px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+footer{
+    text-align: center;
+    font-weight: bold;
 }
